@@ -1,0 +1,91 @@
+
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+#idbalde{
+
+width: 500px;
+height: 500px;
+
+
+}
+.thumbnail:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.thumbnail:active{
+
+    transform: scale(0.9, 0.9);
+
+}
+
+#menu{
+
+height: 600px;
+position: absolute;
+top: 20px;
+right: 20px;
+width: 700px;
+height: 1000px;
+
+padding-left: 5px;
+
+border-radius: 20px;
+border-style: solid;
+
+box-shadow: rgba(0, 0, 0, 0.555) 10px 10px 10px; 
+
+background-color: rgb(211, 209, 209);
+
+}
+
+
+#chutemaior {height: 50px;}
+#chutemaior2 {height: 50px;}
+#chutemaior3 {height: 50px;}
+#autochute {height: 50px;}
+#idalien {height: 50px;}
+#idcentipede {height: 50px;}
+#iddupli {height: 50px;}
+#idtri{height: 50px;}
+
+#question{
+
+height: 50px;
+width: 50px;
+float: right;
+padding-right: 10px;
+
+
+}
+
+#ajuda{
+
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+
+
+
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
