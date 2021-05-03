@@ -21,33 +21,22 @@ height: 500px;
 
 #menu{
 
-height: 600px;
 position: absolute;
-top: 20px;
-right: 20px;
+top: 0px;
+right:  0px;
 width: 700px;
-height: 1000px;
 
-padding-left: 5px;
+padding: 20px;
 
-border-radius: 20px;
-border-style: solid;
+border-bottom-left-radius: 20px;
+border: dashed 4px #333333;
 
-box-shadow: rgba(0, 0, 0, 0.555) 10px 10px 10px; 
+box-shadow: rgba(0, 0, 0, 0.555) 4px 4px 4px; 
 
-background-color: rgb(211, 209, 209);
+background-color: rgb(220, 220, 220);
 
 }
 
-
-#chutemaior {height: 50px;}
-#chutemaior2 {height: 50px;}
-#chutemaior3 {height: 50px;}
-#autochute {height: 50px;}
-#idalien {height: 50px;}
-#idcentipede {height: 50px;}
-#iddupli {height: 50px;}
-#idtri{height: 50px;}
 
 #question{
 
@@ -89,3 +78,22 @@ padding-right: 10px;
     cursor: pointer; /* Add a pointer on hover */
   }
 
+.titulo {
+    background-color: rgb(125, 125, 170);
+    padding: 8px 20px;
+    border-radius: 12px 0px 0px 12px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    height: 50px;
+    padding: 0px 18px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    background-color: rgb(180, 155, 155);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
