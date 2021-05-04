@@ -1,6 +1,20 @@
 
 body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
+.image {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    width: 50%;
+    margin-right: 80px;
+}
 
 #idbalde{
 
@@ -29,7 +43,7 @@ width: 700px;
 padding: 20px;
 
 border-bottom-left-radius: 20px;
-border: dashed 4px #333333;
+
 
 box-shadow: rgba(0, 0, 0, 0.555) 4px 4px 4px; 
 
@@ -45,6 +59,7 @@ width: 50px;
 float: right;
 padding-right: 10px;
 
+cursor:  pointer;
 
 }
 

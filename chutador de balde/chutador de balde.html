@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chutador de Balde</title>
-    <link rel="stylesheet" href="aparencia.css">
-</head>
-<body id="e">
-<script src="engrenagens.js"> </script>
-    
+    <link rel="stylesheet" href="aparencia.css" />
+  </head>
+  <body id="e">
     <div id="overlay" onclick="off()">
-
-<div id="ajuda">ola , bom dia!</div>
-
-
+      <div id="ajuda">ola , bom dia!</div>
     </div>
 
+    <div id="menu">
+      <section>
+        <p id="question" onclick="on()">?</p>
+        <h1 id="contador">Pontos =</h1>
+        <h1 id="psegundo">Pontos por segundo = 0</h1>
+      </section>
+      <hr>
+      <h1 class="titulo">Melhorias</h1>
+      <button onclick="melhoria1()" id="chutemaior">Chute Mais Forte</button>
+      Preço 20 Pontos
+      <br />
+      <button onclick="melhoria2()" id="chutemaior2">
+        Chute Muito Mais Forte
+      </button>
+      Preço 50 Pontos
+      <br />
+      <button onclick="melhoria3()" id="chutemaior3">Chute Nuclear</button>
+      Preço 200 Pontos
+      <br />
+      <button onclick="duplicador_comprou()" id="iddupli">
+        Duplicador de Pontos por segundo
+      </button>
+      Preço 20.000 Pontos
+      <br />
+      <button onclick="triplicador_comprou()" id="idtri">
+        Triplicador de Pontos por segundo
+      </button>
+      Preço 100.000 Pontos
+      <hr>
+      <h1 class="titulo">Ajudantes</h1>
+      <button onclick="autochute_comprou()" id="autochute">
+        Chutador Automático
+      </button>
+      Preço 100 Pontos 
+      <span id="auto_quantidade"> Quantidade = 0</span>
+      <button onclick="alien_comprou()" id="idalien">Alien com 6 pernas</button>
+      Preço 1000 Pontos
+      
+      <span id="alien_quantidade"> Quantidade = 0</span>
+      <button onclick="centipede_comprou()" id="idcentipede">
+        Centipede Aleijado ( só tem 40 pernas)
+      </button>
+      Preço 6.000 Pontos 
+      <span id="centipede_quantidade"> Quantidade = 0</span>
+    </div>
 
-
-
-<div id="menu">
-
-    <section><img src="question.png" alt="?" id="question" onclick="on()">
-        <h1 id='contador'>Pontos =</h1><h1 id="psegundo">Pontos por segundo = 0 </h1>
-    </section>
-    <h1>  --------------------------------------------------------------------------------</h1>
-    <h1 class=titulo>Melhorias</h1>
-    <button  onclick="melhoria1()" id="chutemaior"> Chute Mais Forte</button> Preço 20 Pontos
-    <br>
-    <button  onclick="melhoria2()" id="chutemaior2"> Chute Muito Mais Forte</button> Preço 50 Pontos
-    <br>
-    <button  onclick="melhoria3()" id="chutemaior3"> Chute Nuclear</button> Preço 200 Pontos
-    <br>
-    <button  onclick="duplicador_comprou()" id="iddupli"> Duplicador de Pontos por segundo </button> Preço 20.000 Pontos
-    <br>
-    <button  onclick="triplicador_comprou()" id="idtri"> Triplicador de Pontos por segundo </button> Preço 100.000 Pontos
-    <h1>  --------------------------------------------------------------------------------</h1>
-    <h1 class=titulo> Ajudantes </h1>
-    <button  onclick="autochute_comprou()" id="autochute"> Chutador Automático </button> Preço 100 Pontos --------------------------------------------------------- <span id="auto_quantidade"> Quantidade = 0</span>
-    <button  onclick="alien_comprou()" id="idalien"> Alien com 6 pernas </button> Preço 1000 Pontos ----------------------------------------------------------- <span id="alien_quantidade"> Quantidade = 0</span>
-    <button  onclick="centipede_comprou()" id="idcentipede"> Centipede Aleijado ( só tem 40 pernas) </button> Preço 6.000 Pontos ------------- <span id="centipede_quantidade"> Quantidade = 0</span>
-
-
-
-
-</div>
-
-
-
-
-<div><img src="balde2.jpg" alt="balde" id = "idbalde"  class="thumbnail"
-onclick="clicou()"
-></div>
-<br>
-
-
-</body>
-
+    <div class="image">
+      <img
+        src="balde2.jpg"
+        alt="balde"
+        id="idbalde"
+        class="thumbnail"
+        onclick="clicou()"
+      />
+    </div>
+    <br />
+    <script src="engrenagens.js"></script>
+  </body>
 </html>
